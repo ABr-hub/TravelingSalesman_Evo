@@ -33,6 +33,6 @@ Here, $π(i)$ represents the $i$-th city in the permutation $π$. The summation 
 
 The solution must be a permutation of the cities, visiting each city exactly once:
 
-$$\text{Subject to} :π(i) \neq π(j) \text{for} ;; i \neq j, π(i) \in C \text{for} ;;  i=1,2,...,n$$
+$$\text{Subject to} :π(i) \neq π(j) \quad \text{for} \quad i \neq j, π(i) \in C  \quad \text{for} \quad  i=1,2,...,n$$
 
 The Traveling Salesman Problem is known to be NP-hard, indicating that finding an optimal solution for large instances becomes computationally intractable in polynomial time. As a result, approximation algorithms and heuristics are often employed to find near-optimal solutions efficiently.
