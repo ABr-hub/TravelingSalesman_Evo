@@ -18,10 +18,11 @@ The Traveling Salesman Problem (TSP) can be formally defined as an optimization 
 
 **Given:**
 
-    * $n$ cities, represented by the set $C={1,2,...,n}$.
-    * A distance matrix $D$, where $D[i][j]$ is the distance between city $i$ and city $j$.
+- $n$ cities, represented by the set $C={1,2,...,n}$.
+- A distance matrix $D$, where $D[i][j]$ is the distance between city $i$ and city $j$.
 
 **Objective:**
+
 Find a permutation $π$ of the cities in $C$ such that the total travel cost is minimized. The total travel cost is defined as the sum of distances along the tour:
 
 $$ \text{Minimize}:\sum_{i=1}^{n−1}D[π(i)][π(i+1)]+D[π(n)][π(1)]$$
