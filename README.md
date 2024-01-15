@@ -27,11 +27,12 @@ Find a permutation $π$ of the cities in $C$ such that the total travel cost is 
 
 $$ \text{Minimize}:\sum_{i=1}^{n−1}D[π(i)][π(i+1)]+D[π(n)][π(1)]$$
 
-Here, π(i)π(i) represents the ii-th city in the permutation ππ. The summation goes from the first city to the (n−1)(n−1)-th city, and the last term represents the distance from the nn-th city back to the first city to complete the tour.
+Here, $π(i)$ represents the $i$-th city in the permutation $π$. The summation goes from the first city to the $(n−1)$-th city, and the last term represents the distance from the $n$-th city back to the first city to complete the tour.
 
-Constraints:
+**Constraints:**
+
 The solution must be a permutation of the cities, visiting each city exactly once:
 
-Subject to:π(i)≠π(j) for i≠j,π(i)∈C for i=1,2,...,nSubject to:π(i)=π(j) for i=j,π(i)∈C for i=1,2,...,n
+$$text{Subject to}:π(i) \neq π(j) \text{for} i \neq j, π(i) \in C \text{for} i=1,2,...,n$$
 
 The Traveling Salesman Problem is known to be NP-hard, indicating that finding an optimal solution for large instances becomes computationally intractable in polynomial time. As a result, approximation algorithms and heuristics are often employed to find near-optimal solutions efficiently.
