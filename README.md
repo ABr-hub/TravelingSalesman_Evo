@@ -40,3 +40,8 @@ The solution must be a permutation of the cities, visiting each city exactly onc
 $$\text{Subject to} :π(i) \neq π(j) \quad \text{for} \quad i \neq j, π(i) \in C  \quad \text{for} \quad  i=1,2,...,n$$
 
 The Traveling Salesman Problem is known to be NP-hard, indicating that finding an optimal solution for large instances becomes computationally intractable in polynomial time. As a result, approximation algorithms and heuristics are often employed to find near-optimal solutions efficiently.
+
+
+---
+# Sources 
+[1] https://de.wikipedia.org/wiki/Problem_des_Handlungsreisenden
