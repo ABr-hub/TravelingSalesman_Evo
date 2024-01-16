@@ -52,7 +52,7 @@ The left figure below illustrates a scenario of the traveling salesman problem (
 
 The right figure illustrates an initial randomized solution.
 
-<img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Initial_Problem.png"  width=44% height=44%/> <img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Randomized_solution.png"  width=40% height=40%/>
+<img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Initial_Problem.png"  width=44% height=44%/> <img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Randomized_solution.png"  width=42% height=42%/>
 
 ---
 ## Sources 
