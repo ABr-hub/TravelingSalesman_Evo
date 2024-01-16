@@ -45,6 +45,12 @@ $$\text{Subject to} :π(i) \neq π(j) \quad \text{for} \quad i \neq j, π(i) \in
 
 The Traveling Salesman Problem is known to be NP-hard, indicating that finding an optimal solution for large instances becomes computationally intractable in polynomial time. As a result, approximation algorithms and heuristics are often employed to find near-optimal solutions efficiently.
 
+---
+## The Problem
+
+The figure nbelow illustrates a scenario of the traveling salesman problem (TSP) on a map grid measuring 100 units by 100 units. The depicted spots represent the 22 destinations, including the starting point, the salesman has to visit exactly once before returning home at the conclusion of the trip.
+
+<img src=""  width=44% height=44%/> <img src=""  width=45% height=45%/>
 
 ---
 ## Sources 
