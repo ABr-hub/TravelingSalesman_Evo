@@ -56,8 +56,13 @@ The **right** figure illustrates an initial randomized solution.
 
 ## The solution
 
-Given the NP-hard nature of the TSP problem, no linear-time mathematical solution has been discovered. Instead, TSP is often addressed using estimation methods, incorporating process and optimization shortcuts. Represented by $O(n^2 2^n)$, the TSP problem's maximum time complexity for finding a solution is calculated. For instance, solving for 22 destinations involves up to 2 billion calculations, taking 23 days if each calculation lasts 1 millisecond. As the number of destinations increases, the computational burden grows exponentially, rendering traditional programming solutions impractical. In contrast, .
+Given the NP-hard nature of the TSP problem, no linear-time mathematical solution has been discovered. Instead, TSP is often addressed using estimation methods, incorporating process and optimization shortcuts. Represented by $O(n^2 2^n)$, the TSP problem's maximum time complexity for finding a solution is calculated. For instance, solving for 22 destinations involves up to 2 billion calculations, taking 23 days if each calculation lasts 1 millisecond. As the number of destinations increases, the computational burden grows exponentially, rendering traditional programming solutions impractical. In contrast,
 <ins>*methods like EA/GA offer viable alternatives for tackling such intricate problems*</ins>.
+
+The attached notebook employs a genetic algorithm to efficiently provide a heuristic solution for the TSP problem, significantly reducing the time required compared to finding the optimal solution.
+The gif below shows how the heuristic solution evolves from an initial, non-valid solution to a valid, near-optimal solution.
+
+<img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/c44ed1d3d2ad00202f924120c70563731ca67705/ressources/TSP_Solution.gif" width=44% height=44%/> 
 
 A simple way to evaluate whether a solution is correct is to notice that all the connected points don’t cross over each other and, essentially, form a loop.
 
