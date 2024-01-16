@@ -2,7 +2,7 @@
 This repo showcases how the TSP can be solved using genetic algorithm.
 
 ---
-### Background:
+## Background:
 The Traveling Salesman Problem (TSP) is a classic optimization problem in the field of computer science, operations research, and mathematics. The problem can be stated as follows: Given a list of cities and the distances between each pair of cities, the task is to find the shortest possible tour that visits each city exactly once and returns to the starting city.
 
 
@@ -17,7 +17,11 @@ Due to its practical relevance in various fields such as logistics, transportati
 
 Despite its computational challenges, the Traveling Salesman Problem remains a fundamental problem in optimization and is used as a benchmark for testing the efficiency of algorithms in solving combinatorial optimization problems.
 
-### Formulation
+### Sidenote
+
+In mathematics and computation, algorithms are categorized based on their difficulty, measured by the time or computational power needed to solve them. Problems are labeled as NP (Non-deterministic Polynomial) and are further classified into NP-easy, solvable in linear time (N × P increases linearly), and NP-hard, which require exponential time (N² × P or higher) as the number of elements increases, making their complexity grow exponentially.
+
+## Formulation
 The Traveling Salesman Problem (TSP) can be formally defined as an optimization problem using mathematical notation. Let's denote the problem as TSP.
 
 **Given:**
