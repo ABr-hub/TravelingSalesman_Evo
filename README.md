@@ -48,9 +48,11 @@ The Traveling Salesman Problem is known to be NP-hard, indicating that finding a
 ---
 ## The Problem
 
-The figure nbelow illustrates a scenario of the traveling salesman problem (TSP) on a map grid measuring 100 units by 100 units. The depicted spots represent the 22 destinations, including the starting point, the salesman has to visit exactly once before returning home at the conclusion of the trip.
+The left figure below illustrates a scenario of the traveling salesman problem (TSP) on a map grid measuring 100 units by 100 units. The depicted spots represent the 22 destinations, including the starting point, the salesman has to visit exactly once before returning home at the conclusion of the trip.
 
-<img src=""  width=44% height=44%/> <img src=""  width=45% height=45%/>
+The right figure illustrates an initial randomized solution.
+
+<img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Initial_Problem.png"  width=44% height=44%/> <img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Randomized_solution.png"  width=45% height=45%/>
 
 ---
 ## Sources 
