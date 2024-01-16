@@ -54,6 +54,14 @@ The **right** figure illustrates an initial randomized solution.
 
 <img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Initial_Problem.png"  width=44% height=44%/> <img src="https://github.com/ABr-hub/TravelingSalesman_Evo/blob/ede9a9d6191f8ad23d430e045dff25b66dd65918/ressources/Randomized_solution.png"  width=42.5% height=42.5%/>
 
+## The solution
+
+Given the NP-hard nature of the TSP problem, no linear-time mathematical solution has been discovered. Instead, TSP is often addressed using estimation methods, incorporating process and optimization shortcuts. Represented by $O(n^2 2^n)$, the TSP problem's maximum time complexity for finding a solution is calculated. For instance, solving for 22 destinations involves up to 2 billion calculations, taking 23 days if each calculation lasts 1 millisecond. As the number of destinations increases, the computational burden grows exponentially, rendering traditional programming solutions impractical. In contrast, methods like EA/GA offer viable alternatives for tackling such intricate problems.
+
+
+A simple way to evaluate whether a solution is correct is to notice that all the connected points don’t cross over each other and, essentially, form a loop.
+
+
 ---
 ## Sources 
 [1] https://de.wikipedia.org/wiki/Problem_des_Handlungsreisenden
