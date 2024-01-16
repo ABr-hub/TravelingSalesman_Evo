@@ -24,12 +24,12 @@ In mathematics and computation, algorithms are categorized based on their diffic
 ## Formulation
 The Traveling Salesman Problem (TSP) can be formally defined as an optimization problem using mathematical notation. Let's denote the problem as TSP.
 
-**Given:**
+### Given
 
 - $n$ cities, represented by the set $C={1,2,...,n}$.
 - A distance matrix $D$, where $D[i][j]$ is the distance between city $i$ and city $j$.
 
-**Objective:**
+### Objective
 
 Find a permutation $π$ of the cities in $C$ such that the total travel cost is minimized. The total travel cost is defined as the sum of distances along the tour:
 
@@ -37,7 +37,7 @@ $$ \text{Minimize}:\sum_{i=1}^{n−1}D[π(i)][π(i+1)]+D[π(n)][π(1)]$$
 
 Here, $π(i)$ represents the $i$-th city in the permutation $π$. The summation goes from the first city to the $(n−1)$-th city, and the last term represents the distance from the $n$-th city back to the first city to complete the tour.
 
-**Constraints:**
+### Constraints
 
 The solution must be a permutation of the cities, visiting each city exactly once:
 
@@ -47,5 +47,5 @@ The Traveling Salesman Problem is known to be NP-hard, indicating that finding a
 
 
 ---
-# Sources 
+## Sources 
 [1] https://de.wikipedia.org/wiki/Problem_des_Handlungsreisenden
