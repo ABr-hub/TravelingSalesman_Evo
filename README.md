@@ -56,8 +56,8 @@ The **right** figure illustrates an initial randomized solution.
 
 ## The solution
 
-Given the NP-hard nature of the TSP problem, no linear-time mathematical solution has been discovered. Instead, TSP is often addressed using estimation methods, incorporating process and optimization shortcuts. Represented by $O(n^2 2^n)$, the TSP problem's maximum time complexity for finding a solution is calculated. For instance, solving for 22 destinations involves up to 2 billion calculations, taking 23 days if each calculation lasts 1 millisecond. As the number of destinations increases, the computational burden grows exponentially, rendering traditional programming solutions impractical. In contrast, *methods like EA/GA offer viable alternatives for tackling such intricate problems*~.
-<ins>text</ins>
+Given the NP-hard nature of the TSP problem, no linear-time mathematical solution has been discovered. Instead, TSP is often addressed using estimation methods, incorporating process and optimization shortcuts. Represented by $O(n^2 2^n)$, the TSP problem's maximum time complexity for finding a solution is calculated. For instance, solving for 22 destinations involves up to 2 billion calculations, taking 23 days if each calculation lasts 1 millisecond. As the number of destinations increases, the computational burden grows exponentially, rendering traditional programming solutions impractical. In contrast, .
+<u>*methods like EA/GA offer viable alternatives for tackling such intricate problems*</u>
 
 A simple way to evaluate whether a solution is correct is to notice that all the connected points don’t cross over each other and, essentially, form a loop.
 
