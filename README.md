@@ -66,7 +66,7 @@ The gif below shows how the heuristic solution evolves from an initial, non-vali
 
 A simple way to evaluate whether a solution is correct is to notice that all the connected points don’t cross over each other and, essentially, form a loop.
 
-
 ---
+
 ## Sources 
 [1] https://de.wikipedia.org/wiki/Problem_des_Handlungsreisenden
